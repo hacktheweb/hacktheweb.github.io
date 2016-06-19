@@ -1,0 +1,25 @@
+.whitespaced {
+    max-width: 60em;
+    min-height: 22.5em;
+    padding: 3em;
+    display: flex;
+    margin: auto;
+}
+
+.whitespaced h3 {
+    margin-top: 0;
+}
+
+.whitespaced p {
+    max-width: 19em;
+    line-height: 150%;
+}
+
+.whitespaced > * {
+    flex: 1;
+}
+
+.whitespaced img {
+    height: 22.5em;
+    margin: 0 3em;
+}

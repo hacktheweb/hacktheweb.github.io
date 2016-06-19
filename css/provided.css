@@ -1,0 +1,17 @@
+#provided {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#provided div {
+    width: 20em;
+    padding: 3em 0;
+    margin: 0 1em;
+}
+
+#provided img {
+    height: 6.4em;
+}

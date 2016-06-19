@@ -1,0 +1,22 @@
+#sponsers h3 {
+    width: 100%;
+    text-align: center;
+}
+
+#sponsers > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sponsers a {
+    width: 33.3%;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sponsers a img {
+    width: 10em;
+    max-width: calc(100% - 2em);
+}

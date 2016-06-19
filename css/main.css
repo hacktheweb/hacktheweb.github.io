@@ -2,13 +2,18 @@
 @import 'color.css';
 @import 'hero.css';
 @import 'atlaspro.css';
+@import 'provided.css';
+@import 'whitespaced.css';
+@import 'button.css';
+@import 'footer.css';
+@import 'sponsers.css';
 
 body {
     font-family: 'atlas-pro', sans-serif;
     font-weight: 300;
 }
 
-h1, h2, h3, h5 {
+h1, h2, h3, h6 {
     font-weight: 100;
 }
 
@@ -37,6 +42,24 @@ h4 {
     font-weight: 300;
 }
 
+h6 {
+    font-size: 1.5em;
+    margin: 0.5em;
+}
+
 p {
     font-size: 1.25em;
+}
+
+section {
+    overflow: hidden;
+    position: relative;
+}
+
+.hashtag {
+    font-weight: 500;
+}
+
+.hashtag::before {
+    content: '#';
 }
