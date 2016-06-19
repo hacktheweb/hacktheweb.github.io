@@ -1,0 +1,17 @@
+[data-background="blue600"] {
+    background: #5a8fb3;
+}
+
+[data-color="green300"] {
+    color: #caff42;
+    border-color: #caff42;
+}
+
+[data-background="blue100"] {
+    background: #ebf7f8;
+}
+
+[data-color="white"] {
+    color: #fff;
+    border-color: #fff;
+}

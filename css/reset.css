@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+button {
+    font: inherit;
+    border: none;
+    background: none;
+}
