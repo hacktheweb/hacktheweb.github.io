@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'atlas-pro';
     font-weight: 100;
-    src: url('http://alefalefalef.co.il/wp-content/themes/aaa/webfonts/atlas-pro/atlas-pro-aaa-100.woff');
+    src: url('../fonts/atlas-pro/atlas-pro-aaa-100.woff');
 }
 @font-face {
     font-family: 'atlas-pro';
     font-weight: 300;
-    src: url('http://alefalefalef.co.il/wp-content/themes/aaa/webfonts/atlas-pro/atlas-pro-aaa-300.woff');
+    src: url('../fonts/atlas-pro/atlas-pro-aaa-300.woff');
 }
 @font-face {
     font-family: 'atlas-pro';
     font-weight: 500;
-    src: url('http://alefalefalef.co.il/wp-content/themes/aaa/webfonts/atlas-pro/atlas-pro-aaa-500.woff');
+    src: url('../fonts/atlas-pro/atlas-pro-aaa-500.woff');
 }
