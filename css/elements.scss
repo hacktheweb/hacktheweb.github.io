@@ -1,0 +1,56 @@
+h1, h2, h3, h6 {
+    font-weight: 100;
+}
+
+h1, h2, h4 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+    margin: 0.4em;
+}
+
+h2 {
+    line-height: 0.8em;
+    font-size: 30vw;
+    margin: 0;
+}
+
+@media (min-width: 70em) {
+    h2 {
+        font-size: 20em;
+    }
+}
+
+h3 {
+    font-size: 3.75em;
+    margin: 0.5em 0;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+h6 {
+    font-size: 1.5em;
+    margin: 0.5em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+section {
+    overflow: hidden;
+    position: relative;
+}
+
+.hashtag {
+    font-weight: 500;
+}
+
+.hashtag::before {
+    content: '#';
+}

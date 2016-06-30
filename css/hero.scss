@@ -1,0 +1,10 @@
+#hero {
+    padding: 3em;
+    background: radial-gradient(circle at bottom left, $pink 0%, $blue 70%);
+    color: #fff;
+    text-align: center;
+}
+
+#hero button {
+    margin: 0 auto 2em;
+}

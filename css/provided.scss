@@ -1,6 +1,8 @@
 #provided {
     display: flex;
     text-align: center;
+    background: radial-gradient(circle at bottom left, $blue 0%, $pink 120%);
+    color: #fff;
     flex-wrap: wrap;
     justify-content: center;
 

@@ -1,65 +1,199 @@
-@import 'reset.css';
-@import 'color.css';
-@import 'hero.css';
-@import 'atlaspro.css';
-@import 'provided.css';
-@import 'whitespaced.css';
-@import 'button.css';
-@import 'footer.css';
-@import 'sponsers.css';
-
 body {
-    font-family: 'atlas-pro', sans-serif;
-    font-weight: 300;
-}
+  margin: 0; }
+
+button {
+  font: inherit;
+  border: none;
+  background: none;
+  cursor: pointer; }
+
+figure {
+  padding: 0;
+  margin: 0; }
 
 h1, h2, h3, h6 {
-    font-weight: 100;
-}
+  font-weight: 100; }
 
 h1, h2, h4 {
-    text-align: center;
-}
+  text-align: center; }
 
 h1 {
-    font-size: 5em;
-    margin: 0.4em;
-}
+  font-size: 5em;
+  margin: 0.4em; }
 
 h2 {
-    line-height: 0.8em;
-    font-size: 16.5em;
-    margin: 0;
-}
+  line-height: 0.8em;
+  font-size: 30vw;
+  margin: 0; }
 
+@media (min-width: 70em) {
+  h2 {
+    font-size: 20em; } }
 h3 {
-    font-size: 3.75em;
-    margin: 0.5em 0;
-}
+  font-size: 3.75em;
+  margin: 0.5em 0; }
 
 h4 {
-    font-size: 1.5em;
-    font-weight: 300;
-}
+  font-size: 1.5em;
+  font-weight: 300; }
 
 h6 {
-    font-size: 1.5em;
-    margin: 0.5em;
-}
+  font-size: 1.5em;
+  margin: 0.5em; }
 
 p {
-    font-size: 1.25em;
-}
+  font-size: 1.25em; }
 
 section {
-    overflow: hidden;
-    position: relative;
-}
+  overflow: hidden;
+  position: relative; }
 
 .hashtag {
-    font-weight: 500;
-}
+  font-weight: 500; }
 
 .hashtag::before {
-    content: '#';
-}
+  content: '#'; }
+
+button.raised {
+  width: 8em;
+  padding: 0.25em 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 1em; }
+button.ghost {
+  color: white;
+  border: 2px solid white;
+  transition: background .25s; }
+  button.ghost:hover {
+    background: white;
+    color: #0d2d42; }
+
+@font-face {
+  font-family: 'atlas-pro';
+  font-weight: 100;
+  src: url("../fonts/atlas-pro/atlas-pro-aaa-100.woff"); }
+@font-face {
+  font-family: 'atlas-pro';
+  font-weight: 300;
+  src: url("../fonts/atlas-pro/atlas-pro-aaa-300.woff"); }
+@font-face {
+  font-family: 'atlas-pro';
+  font-weight: 500;
+  src: url("../fonts/atlas-pro/atlas-pro-aaa-500.woff"); }
+.date {
+  clear: both; }
+  .date time {
+    width: 1.15em;
+    height: 1.15em;
+    padding: .25em;
+    text-align: center;
+    border: 1px solid #ff2d42;
+    border-radius: 0.4em;
+    font-weight: 100;
+    font-size: 2.5em;
+    color: #ff2d42;
+    display: block;
+    float: right;
+    margin: .4em .4em 0 0; }
+
+#hero {
+  padding: 3em;
+  background: radial-gradient(circle at bottom left, #ff2d42 0%, #0d2d42 70%);
+  color: #fff;
+  text-align: center; }
+
+#hero button {
+  margin: 0 auto 2em; }
+
+#events {
+  max-width: 70em;
+  padding: 1em;
+  margin: 0 auto 4em; }
+  #events h3 {
+    width: 100%;
+    max-width: 10em;
+    font-size: 3.75em;
+    margin: 1.5em 0;
+    float: left; }
+  #events p {
+    max-width: 20em;
+    font-size: 1.4em;
+    clear: left; }
+    #events p:nth-of-type(2n) {
+      margin-right: 6.6em; }
+  #events h3:nth-of-type(2n), #events p:nth-of-type(2n) {
+    float: right;
+    clear: right; }
+  #events img {
+    width: calc(100% - 2em);
+    max-width: 19em;
+    float: right;
+    margin: -5em calc((100% - 37em - 19em) / 2) 0; }
+    #events img:nth-of-type(2n) {
+      margin-top: 10em;
+      float: left; }
+  #events img + h3 {
+    margin-top: -1em; }
+
+@media (max-width: 57em) {
+  #events img {
+    margin: 4em auto !important;
+    float: none !important;
+    display: block !important; }
+  #events img + h3 {
+    margin-top: 1em; } }
+#provided {
+  display: flex;
+  text-align: center;
+  background: radial-gradient(circle at bottom left, #0d2d42 0%, #ff2d42 120%);
+  color: #fff;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+#provided div {
+  width: 20em;
+  padding: 3em 0;
+  margin: 0 1em; }
+
+#provided img {
+  height: 6.4em; }
+
+#sponsers h3 {
+  width: 100%;
+  text-align: center; }
+
+#sponsers > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+#sponsers a {
+  width: 17em;
+  max-width: 33.3%;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#sponsers a img {
+  max-width: 9em;
+  height: 3.5em;
+  filter: grayscale(1);
+  transition: filter .25s; }
+  #sponsers a img:hover {
+    filter: grayscale(0); }
+
+footer {
+  padding: 2em;
+  background: #0d2d42;
+  color: #fff;
+  text-align: center; }
+  footer h3 {
+    font-size: 2em; }
+
+body {
+  font-family: 'atlas-pro', sans-serif;
+  font-weight: 300; }
+
+/*# sourceMappingURL=main.css.map */
