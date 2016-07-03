@@ -1,0 +1,17 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Hack the Web | Summer web events
+email: mail@iddan.co
+description: Hack the Web is a yearly event focusing on disrupting knowledge related to development for the World Wide Web. The event includes a 30-hour hackathon and workshops. it is completely free and everyone can apply at http://hacktheweb.co. Hack the Web was founded  in order to share little-known technologies and promote ethics like equal opportunities for women and environment protection.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://hacktheweb.co" # the base hostname & protocol for your site
+github_username:  hacktheweb
+
+# Build settings
+markdown: kramdown

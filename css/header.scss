@@ -1,0 +1,68 @@
+header {
+    padding: 3em;
+    background: $bluepink;
+    color: #fff;
+    text-align: center;
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+    nav {
+        display: none;
+    }
+    button {
+        margin: 0 auto 2em;
+    }
+}
+
+body.header {
+    margin-top: 5.5em;
+    header {
+        width: calc(100% - 2em);
+        text-align: left;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        padding: 1em 1em 0;
+        h1, h2 {
+            margin: 0;
+        }
+        h2 {
+            font-size: 2em;
+            float: left;
+            margin: 0 .5em 0 0;
+        }
+        h1 {
+            font-size: 1.5em;
+        }
+        h4 {
+            display: none;
+        }
+        nav {
+            display: block;
+            flex: 1;
+            ul {
+                padding: 0;
+                display: block;
+                margin: 0;
+                li {
+                    display: inline-block;
+                    margin: 1em 0;
+                    text-transform: uppercase;
+                }
+            }
+        }
+        button {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        animation: header-scroll-in .25s;
+    }
+}
+
+@keyframes header-scroll-in {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(0);}
+}

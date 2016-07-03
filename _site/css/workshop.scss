@@ -1,0 +1,21 @@
+article.workshop {
+    padding: 1em;
+    img {
+        width: 12.5em;
+        border-radius: 50%;
+        float: left;
+        margin: 0 1em 5em 0;
+    }
+    time {
+        margin-right: 6.7em;
+    }
+}
+
+@media (max-width: $mobile-width) {
+    article.workshop {
+        img {
+            float: none;
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+---
+layout: default
+title: Workshops
+---
+<section class="cover">
+    <h1>{{page.title}}</h1>
+</section>
+{% for workshop in site.tags.workshop | sort: 'time' %}
+    <article class="workshop">
+        <time data-day="{{ workshop.time | date: "%-d"}}" date-month="{{ workshop.time | date: "%B"}}"></time>
+        <img src="{{workshop.image}}" />
+        <h3>{{workshop.topic}} Workshop</h2>
+        <p>{{workshop.speaker}}</p>
+        <p>{{workshop.location}}</p>
+        <p>{{workshop.time | date: "%H:%M"}}</p>
+        <a href="http://goo.gl/forms/WBmDb7zud8DOJQUx2"><button class="raised">Apply Now</button></a>
+    </article>
+{% endfor %}

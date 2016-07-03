@@ -1,0 +1,19 @@
+#provided {
+    display: flex;
+    text-align: center;
+    background: radial-gradient(circle at bottom left, $blue 0%, $pink 120%);
+    color: #fff;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#provided div {
+    width: 20em;
+    padding: 3em 0;
+    margin: 0 1em;
+}
+
+#provided img {
+    height: 6.4em;
+}
