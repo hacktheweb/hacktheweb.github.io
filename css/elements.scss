@@ -49,9 +49,11 @@ section {
 }
 
 section.cover {
+    padding: 1em;
     background: $bluepink;
     color: white;
     margin: 0 0 2em;
+    text-align: center;
 }
 
 .hashtag {

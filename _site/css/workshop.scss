@@ -1,10 +1,15 @@
 article.workshop {
+    max-width: 60em;
     padding: 1em;
-    img {
+    margin: auto;
+    .img {
         width: 12.5em;
+        height: 12.5em;
+        background-size: cover;
+        background-position: center 25%;
         border-radius: 50%;
         float: left;
-        margin: 0 1em 5em 0;
+        margin: 0 2em 5em 0;
     }
     time {
         margin-right: 6.7em;
@@ -13,9 +18,14 @@ article.workshop {
 
 @media (max-width: $mobile-width) {
     article.workshop {
-        img {
+        .img {
             float: none;
+            clear: both;
             margin: auto;
+        }
+        time {
+            clear: both;
+            margin: 1em;
         }
     }
 }

@@ -50,9 +50,11 @@ section {
   position: relative; }
 
 section.cover {
+  padding: 1em;
   background: radial-gradient(circle at bottom left, #ff2d42 0%, #0d2d42 70%);
   color: white;
-  margin: 0 0 2em; }
+  margin: 0 0 2em;
+  text-align: center; }
 
 .hashtag {
   font-weight: 500; }
@@ -259,19 +261,28 @@ footer {
     font-size: 2em; }
 
 article.workshop {
-  padding: 1em; }
-  article.workshop img {
+  max-width: 60em;
+  padding: 1em;
+  margin: auto; }
+  article.workshop .img {
     width: 12.5em;
+    height: 12.5em;
+    background-size: cover;
+    background-position: center 25%;
     border-radius: 50%;
     float: left;
-    margin: 0 1em 5em 0; }
+    margin: 0 2em 5em 0; }
   article.workshop time {
     margin-right: 6.7em; }
 
 @media (max-width: 57em) {
-  article.workshop img {
+  article.workshop .img {
     float: none;
-    margin: auto; } }
+    clear: both;
+    margin: auto; }
+  article.workshop time {
+    clear: both;
+    margin: 1em; } }
 body {
   font-family: 'atlas-pro', sans-serif;
   font-weight: 300; }

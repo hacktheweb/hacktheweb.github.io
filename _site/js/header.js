@@ -9,7 +9,7 @@ header.classListener = function () {
         }
     }
     else if (body.scrollTop >= header.clientHeight) {
-        let headerHeight = header.clientHeight;
+        var headerHeight = header.clientHeight;
         body.classList.add('header');
         body.scrollTop -= headerHeight - header.clientHeight;
     }
