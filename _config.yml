@@ -12,6 +12,6 @@ description: Hack the Web is a yearly event focusing on disrupting knowledge rel
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hacktheweb.co" # the base hostname & protocol for your site
 github_username:  hacktheweb
-
+timezone: Asia/Jerusalem
 # Build settings
 markdown: kramdown
