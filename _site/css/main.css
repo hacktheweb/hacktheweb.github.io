@@ -11,7 +11,7 @@ figure {
   padding: 0;
   margin: 0; }
 
-h1, h2, h3, h6 {
+h1, h2, h3, h6, a h3 {
   font-weight: 100; }
 
 h1 {
@@ -161,7 +161,7 @@ body.header {
         margin: 0; }
         body.header header nav ul li {
           display: inline-block;
-          margin: 1em 0;
+          margin: 1em 1em 1em 0;
           text-transform: uppercase; }
     body.header header button {
       position: absolute;
@@ -283,6 +283,24 @@ article.workshop {
   article.workshop time {
     clear: both;
     margin: 1em; } }
+#schedule {
+  max-width: 60em;
+  margin: auto; }
+  #schedule table {
+    width: 100%;
+    border-spacing: 1em; }
+    #schedule table td {
+      padding: 1em;
+      vertical-align: top; }
+      #schedule table td:nth-of-type(1) {
+        width: 3.75em;
+        font-weight: 500; }
+      #schedule table td:nth-of-type(2) {
+        width: 2em;
+        border-right: 1px solid #000; }
+      #schedule table td:nth-of-type(3)::first-line {
+        font-size: 1.3em; }
+
 body {
   font-family: 'atlas-pro', sans-serif;
   font-weight: 300; }

@@ -1,10 +1,7 @@
 ---
-layout: default
+layout: page
 title: Workshops
 ---
-<section class="cover">
-    <h3>{{page.title}}</h3>
-</section>
 {% for workshop in site.tags.workshop | sort: 'time' %}
     <article class="workshop">
         <time data-day="{{ workshop.time | date: "%-d"}}" date-month="{{ workshop.time | date: "%B"}}"></time>
