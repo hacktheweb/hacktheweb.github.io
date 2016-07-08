@@ -14,5 +14,4 @@ url: "http://hacktheweb.co" # the base hostname & protocol for your site
 github_username:  hacktheweb
 timezone: Asia/Jerusalem
 # Build settings
-markdown: kramdown:
-    input: GFM
+markdown: kramdown
