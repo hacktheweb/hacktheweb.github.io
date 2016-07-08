@@ -20,6 +20,6 @@ Fri 29.7 | 08:00 | Mingling <br /><br /> Hello World!
          | 14:00 | Lunch
          | 20:00 | The Bash <br /><br /> Dinner together, music and good vibes
 Sat 30.7 | 08:00 | Breakfast <br /><br /> The most !important meal of the day
-         | 18:00 | Judge Compile <br /><br /> Time to show what you got!
+         | 18:00 | Judge Compile <br /><br /> Show us what you got!
          | 19:00 | Finals & Hack the Web Awards
          | 20:00 | Done <br /><br /> break && exit;
