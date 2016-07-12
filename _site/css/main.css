@@ -226,29 +226,26 @@ body.header {
 #provided img {
   height: 6.4em; }
 
-#sponsers h3 {
+#sponsors h3, #supporters h3 {
   width: 100%;
   text-align: center; }
-
-#sponsers > div {
+#sponsors > div, #supporters > div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
-
-#sponsers a {
+#sponsors a, #supporters a {
   width: 17em;
   max-width: 33.3%;
   height: 10em;
   display: flex;
   align-items: center;
   justify-content: center; }
-
-#sponsers a img {
+#sponsors a img, #supporters a img {
   max-width: 9em;
   height: 3.5em;
   filter: grayscale(1);
   transition: filter .25s; }
-  #sponsers a img:hover {
+  #sponsors a img:hover, #supporters a img:hover {
     filter: grayscale(0); }
 
 footer {

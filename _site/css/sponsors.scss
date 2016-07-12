@@ -1,0 +1,30 @@
+#sponsors, #supporters {
+    h3 {
+        width: 100%;
+        text-align: center;
+    }
+    & > div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    a {
+        width: 17em;
+        max-width: 33.3%;
+        height: 10em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    a img {
+        max-width: 9em;
+        height: 3.5em;
+        filter: grayscale(1);
+        transition: filter .25s;
+
+        &:hover {
+            filter: grayscale(0);
+        }
+
+    }
+}
