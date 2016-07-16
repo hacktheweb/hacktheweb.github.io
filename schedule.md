@@ -6,8 +6,8 @@ permalink: /schedule
 
 Wed 13.7 | 19:00 | UX Workshop <br /><br /> by Dima Vishnevetsky
          | 20:00 | UX Workshop <br /><br /> by Dedi Cohen
-Mon 18.7 | 20:00 | Sass Workshop <br /><br /> by Reuven Karasik
-Wed 20.7 | 20:00 | React Workshop <br /><br /> by Iddan Aharonson
+Wed 20.7 | 20:00 | Sass Workshop <br /><br /> by Reuven Karasik
+         | 20:00 | ES6 & React Workshop <br /><br /> by Iddan Aharonson
 Tue 26.7 | 13:30 | Design Workshop <br /><br /> by Avaraham Cornfeld
 
 
