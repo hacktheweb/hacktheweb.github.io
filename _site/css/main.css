@@ -56,6 +56,11 @@ section.cover {
   margin: 0 0 2em;
   text-align: center; }
 
+article {
+  max-width: 60em;
+  padding: 1em;
+  margin: auto; }
+
 .hashtag {
   font-weight: 500; }
 
@@ -301,5 +306,3 @@ article.workshop {
 body {
   font-family: 'atlas-pro', sans-serif;
   font-weight: 300; }
-
-/*# sourceMappingURL=main.css.map */
