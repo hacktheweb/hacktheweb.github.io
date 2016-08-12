@@ -1,3 +1,8 @@
+---
+layout: article
+title: Menu
+permalink: /menu
+---
 פסטה פומדורו
 ברוטב עגבניות, קוביות עגבניה, שום ובזיליקום
 
